@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>	PARCIAL 2 Detalle Pelicula</title>
+	<script src= "js/detalle.js" defer></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <img src="img/icono.png" height="40px" width="40px" alt="logo">
+              </li>
+            </ul>
+            <form id="formBusqueda" action="#" class="d-flex" role="search">
+              <input id="inputBusqueda" class="form-control me-2" type="search" placeholder="¡Busca aquí!" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+		
+
+		<div id="detallePelicula" class="text-center">
+			<h1 id="nombrePelicula">Nombre de la Pelicula</h1>
+			<img id="posterPelicula" />
+			<ul>
+				<li><span>Descripción: </span><span id="descripcion">descripcionPelicula</span></li>
+				<li><span>Año de Lanzamiento: </span><span id="lanzamiento">añoLanzamiento</span></li>
+
+		</ul>
+
+
+		<a class="btn btn-primary" href="index.html">VOLVER AL INICIO</a>
+
+		</div>
+
+			 <!-- Cargo los archivos javascript de Bootstrap -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+</body>
+</html>

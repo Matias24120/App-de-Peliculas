@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de Películas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <script src="js/main.js" defer></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="iconos/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="iconos/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="iconos/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="iconos/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="iconos/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="iconos/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="iconos/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="iconos/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="iconos/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="iconos/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconos/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="iconos/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="iconos/favicon-16x16.png">
+
+    <link rel="manifest" href="manifest.json">
+    
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-starturl" content="/">
+</head>
+
+
+<body>
+
+  <!-- NAV BAR -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <img src="img/icono.png" height="40px" width="40px" alt="logo">
+              </li>
+            </ul>
+            <form id="formBusqueda" action="#" class="d-flex" role="search">
+              <input id="inputBusqueda" class="form-control me-2" type="search" placeholder="¡Busca aquí!" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <h1>¡Las películas del momento!</h1>
+      	<div class="container">
+			<div class="contenedor row" id="contenedor"></div>
+	   	</div>
+
+	    <div class="paginacion">
+		    <button id="btnAnterior">Anterior</button>
+		    <button id="btnSiguiente">Siguiente</button>
+	    </div>
+	 <!-- Cargo los archivos javascript de Bootstrap -->
+	<script src="js/boostrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+</body>
+</html>
