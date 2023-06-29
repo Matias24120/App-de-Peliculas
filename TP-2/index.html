@@ -66,6 +66,11 @@
 	<script src="js/boostrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
-  <script type="module"></script>
+  <script type="module">
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+  </script>
 </body>
 </html>
