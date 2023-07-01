@@ -1,2 +1,2 @@
 # App-de-Peliculas
-https://649e32c5c6f25319a5604ca3--singular-seahorse-ce1437.netlify.app/
+https://649f885513d46c65185483e0--remarkable-moxie-3c70ec.netlify.app/
