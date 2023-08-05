@@ -1,0 +1,28 @@
+nav a {
+	/*color: white !important;*/
+}
+img {
+	max-width: 100%;
+}
+header a h1 {
+	font-size: 1em;
+	margin-top: 5px;
+}
+.navbar-brand h1 {
+	background: url("../imagenes/logo.png") no-repeat center;
+	background-size: 35px;
+	width: 40px;
+	height: 30px;
+	text-indent: -4000px;
+	display: block;
+}
+
+.div-producto img {
+	display: block;
+	width: 10em;
+	padding-right: 1.9em;
+}
+.carrito .div-producto {
+	margin: 1em 0em;
+}
+
