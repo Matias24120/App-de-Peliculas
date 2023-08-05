@@ -1,0 +1,91 @@
+body, h1, h2, button, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffcc00; 
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333; 
+    text-align: center;
+  }
+
+  button {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #007bff; 
+  }
+  
+  ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 10px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  #containerDatos {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #containerDatos li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #containerDatos span {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el enlace de regreso a la home */
+  a {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

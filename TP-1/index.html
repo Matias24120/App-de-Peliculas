@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéApi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>PokéApi</h1>
+        <!-- Campo de búsqueda -->
+        <input type="text" id="searchInput" placeholder="Buscar Pokémon...">
+        <button type="button" id="searchButton" onclick="searchPokemon()">Buscar</button>
+    </header>
+
+    <main>
+        <div>
+            <h2>Datos</h2>
+            <!-- ¡Descubre Pokemones! -->
+            <button type="button" id="apiButton" onclick="fetchPokemonData()">¡Descubre Pokemones!</button>
+        </div>
+    </main>
+
+    <ul id="lista">
+    
+    </ul>
+</body>
+</html>
